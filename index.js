@@ -183,6 +183,5 @@ function moveCharacter() {
     y = y - 1;
   }
   character.style.left = x + "px";
-    character.style.bottom = y + "px";
+  character.style.bottom = y + "px";
 }
-move(character).to(100, 250)
